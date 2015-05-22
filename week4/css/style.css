@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: helvetica, arial, sans-serif;
+	font-size:16px;
+}
+section {
+	background-color: gray;
+	border-radius: 1.5em;
+	margin: 0 auto;
+	max-width: 37.5em;
+	padding: .5em;
+}
+
+.doublespace {
+	line-height: 2em;
+}
+
+h1 {
+	font-family: 'Londrina Shadow', cursive;
+	text-align: center;
+}
+
+#slogan {
+	color: #ff0000;
+	font-style: italic;
+	font-weight: 800;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff0000;
+	font-weight: 800;
+	text-transform: uppercase;
+
+}
