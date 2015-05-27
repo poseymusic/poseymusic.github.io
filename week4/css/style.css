@@ -17,11 +17,17 @@ section {
 }
 
 h1 {
-	font-family: 'Londrina Shadow', cursive;
 	text-align: center;
 }
 p {
 	margin-top:1em;
+}
+.header_font {
+	font-family: 'Londrina Shadow', cursive;
+}
+
+.para_font {
+	font-family: 'Lora', serif;
 }
 a {
 	color: #ffffff;
@@ -30,15 +36,22 @@ a {
 
 a:hover {
 	color: #ff0000;
-	font-weight: 800;
-	text-transform: uppercase;
 
 }
+
+a.hover_it:hover {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
 .doublespace {
 	line-height: 2em;
 }
+
 #slogan {
 	color: #ff0000;
 	font-style: italic;
 	font-weight: 800;
 }
+
+
