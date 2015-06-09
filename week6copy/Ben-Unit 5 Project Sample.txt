@@ -1,0 +1,76 @@
+Unit 5 Project Sample: 
+Nematocyst Design
+
+Step 1: Define Audience / Tone
+
+Who will visit your site? Potential employers? New clients or customers?
+Employers and clients seeking a UI designer/developer
+
+What can make you and/or your product stand out against your competitors?
+Showing my design and development process from a to z in a linear format
+
+How would you speak to your clientele if you were communicating in person? How could you translate that style and tone digitally?
+In an unconventional, unique way… expressive design… something outside the bounds of a simple static site
+
+What colors represent you or your product?
+Blue for the sea, green for the forest, grey for the sky (this is more branding than anything)
+
+What images illustrate your message?
+Diffuse images to display tone… images of sea life to carry a message… i.e. dolphins or whales for communication, tentacled creatures for capturing attention, etc.
+
+
+
+Step 2: Define Site Structure
+
+What are the three-to-five pages titled?
+
+Work, About, and Contact
+
+What will be the purpose for each?
+Work will display individual projects in an image based format from inception to final build.
+
+Contact is obvious
+
+About will display text about me, what I do, possibly my resume
+
+
+
+
+What should each page contain? Will there be textual content? Or just images?
+
+Homepage
+
+Nematocyst Design
+
+Contains:
+Title
+Navigation
+Logo
+Who we are
+What we do
+
+Work
+
+Showcase the design and development portfolio
+
+Contains:
+Title
+Navigation by image links to notes, wireframes, code samples, iterations
+
+About
+
+About our process and philosophy 
+
+Title
+Navigation
+Image
+Paragraph
+
+Contact
+
+Contact information
+
+Title
+Navigation
+Body text
+Social media links and contact form
