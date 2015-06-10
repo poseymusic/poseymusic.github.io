@@ -3,27 +3,21 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+	background: url('../images/nematocyst.jpg') no-repeat center;
+	background-size: cover;
+}
 
-body {
-	
+body {	
 	margin: auto;
 	font-size: 16px;
-/*
-	font-family: "Open Sans", sans-serif;	
+/*  font-family: "Open Sans", sans-serif;	
 	*/
 }
 
-.background {
-	background: url('../images/nematocyst.jpg') no-repeat;
-    background-size: 54em 37em;
-    background-repeat: repeat;
-	height: 3em;
-    width: 3em;
-
-}
 
 .layer {
-    background-color: rgba(248, 247, 216, 0.5);
+    background-color: rgba(203, 201, 207, 0.5);
     top: 0;
     left: 0;
     width: 100%;
@@ -31,9 +25,11 @@ body {
 }
 
 h1 {
-	font-size: 1.75em;
+	font-size: 2em;
 	font-style: italic;
+	font-weight: 800;
 }
+
 h2 {
 	font-size: 2em;
 	font-style: italic;
@@ -41,8 +37,11 @@ h2 {
 
 header {
 
+	display: inline;
 	font-size: 1em;
 	font-style: italic;
+	margin: auto;
+	
 }
 
 nav {
@@ -66,8 +65,23 @@ a:hover {
 	color: #000000;
 }
 
-h1 a {
 
+footer a{
+	background: #00305A;
+	color: #B2E571;
+	display: block;
+	float: left;
+	padding: .5em;
+	text-decoration: none;
+}
+
+footer a:hover {
+	background: #669900;
+	box-shadow: 10px 10px 5px #888888;	
+	color: #000000;
+}
+
+h1 a {
 	text-align: center;
 }
 
@@ -81,51 +95,63 @@ h1 a {
 	width: 10em;
 }
 
-#hero_left, #hero_right {
-
-	padding: .5em;
-
+.2cols {
+	clear: both;
+	width: 50%;
 }
+
+#hero_left, #hero_right {
+	color: rgb(256, 256, 256);
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: 800;
+	height: 4em;	
+	line-height: 1em;
+	min-width: 15%;
+	padding: .75em;
+}
+
 #hero_left {
 	float: left;
+	clear: both;	
 }
 
 #hero_right {
 	float: right;
 }
 
-.container{
-	margin: auto;
-	width: 1060px;
-
-}
-
 section {
     border: .125em solid;
-    border-radius: 1.5em;
+    border-radius: .5em;
 	clear: right;
+	flex-wrap: wrap;
 	float: left;
-	padding: 1.5em;
+	height: 17em;	
 	margin: 0;
-	width: 32%;
+	padding: 1.5em;	
+	width: 33.333%;
 }
 
 #about {
-	/*
-	background: #00305A;
+	/* background: #00305A; Dark Blue
+	background: rgba(0,48,90,0.5);	
 	*/
-	/* background: #CBC9CF; */
+
+	/* background: #CBC9CF; Gray */
 	background: rgba(203,201,207,0.5);
-
 }
+
 #work {
-	/* background: #176F9F; */
+	/* background: #176F9F; Light Blue */
 	background: rgba(23,111,159,0.5);
-
 }
+
 #contact {
-	/* background: #669900; */
+	/* background: #669900; Green */
 	background: rgba(102,153,0,0.5);
+}
+.banner {
+	height: 10em;
 }
 
 footer {
@@ -133,12 +159,14 @@ footer {
 	clear: both;
 	color: #ffffff;
 	font-size: .75em;
-	padding: 1em;
+	height: 5em;
+	padding: 1.5em;
 	text-align: center;
-
-
 }
 
+footer p {
+	clear: both;
+}
 .clearfix:after {
 	clear: both;
 	content: " ";
