@@ -1,0 +1,250 @@
+* { margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+body {
+	background: rgba(0,0,0,1);
+	font-family: helvetica, arial, sans-serif;	
+	font-size: 16px;
+	margin: auto;
+	width: 77em;
+}
+
+.container {
+	width: 90%;
+}
+
+h1, h2 {
+	font-family: 'Londrina Shadow', cursive;
+}
+
+h1 {
+	font-size: 3.0em;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+p{
+	font-size: 1em;
+}
+
+.banner {
+	background: rgba(255, 0, 255, 1);	
+	background-image:  url('../images/gd2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;	
+	color: black;
+	height: 6.5em;
+	padding: 2em;
+	width: 100%;
+}
+.banner_left {
+	float: left;
+}
+.banner_right {
+	float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: .2em;
+    overflow: hidden;
+}
+
+nav a {
+    background-color: purple;
+    border: 0.15em solid white;  
+    color: white;      
+    padding: 0.5em 0.5em;    
+    text-align: center;
+    text-decoration: none;        
+}
+
+nav ul li {
+	display: inline;
+}
+
+a:hover {
+    background-color: fuchsia;
+}
+
+#slogan {
+	font-size: 1.5em;
+	margin: auto;
+	padding: 2em;
+}
+
+.hero {
+	background: brown;
+
+	font-size: 1em;
+	padding: 2em;		
+}
+
+.hero1 {
+	background: pink;
+	border-radius: .5em;
+	display: inline-block;
+	font-size: 1.5em;		
+	padding: .5em;		
+	width: 45%;	  	
+}
+
+.hero2 {
+	background: lightblue;
+	border-radius: .5em;	
+	display: inline-block;
+	font-size: 1.7em;	
+	margin: .5em;
+	padding: .5em;	
+	width: 70%;		
+}
+
+.hero3 {
+	background: gray;
+	border-radius: .5em;
+	display: inline-block;
+	font-size: 1.5em;
+	list-style: 1.6em;		
+	padding: .5em;		
+	width: 35%;
+}
+
+.hero_stmt {
+	background: brown;
+	width: 100%;
+}
+
+.fades {
+	padding: 2em;
+	line-height: 3em;
+}
+
+section {
+	background: rgba(210, 180, 140, 1);
+	border-radius: .25em;
+	font-size: 1.8em;
+	height: 20em;
+	padding: 1.5em;
+	width: 95%;
+}
+
+#about, #services, #portfolio, #experience, #skills, #contact {
+		margin: 1em auto;
+}
+
+.header {
+	padding: 1em 0;
+}
+footer {
+	text-align: center;
+}
+
+.fader1 {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+.fader2 {
+    -webkit-animation: fadein 13s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 13s; /* Firefox < 16 */
+        -ms-animation: fadein 13s; /* Internet Explorer */
+         -o-animation: fadein 13s; /* Opera < 12.1 */
+            animation: fadein 13s;
+}
+
+.fader3 {
+    -webkit-animation: fadein 23s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 23s; /* Firefox < 16 */
+        -ms-animation: fadein 23s; /* Internet Explorer */
+         -o-animation: fadein 23s; /* Opera < 12.1 */
+            animation: fadein 23s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* media queries */
+/* 768px (iPad portrait) */
+/*
+@media screen and (min-width: 768px) {
+	body {
+		font-size: 16px;
+	}
+	nav ul li {
+		display: inline;
+	}
+	.banner_right {
+		float: right;
+	}
+
+}
+*/
+/*
+@media screen and (max-width: 300px) {
+    body {
+        background-color: lightblue;
+    }
+}
+*/
+
+/* 480px (iPhone landscape) */
+/*
+@media screen and (min-width: 480px) {
+	body {
+		font-size: 15px;
+	}
+	nav ul li {
+		clear: both;
+		display: block;
+	}
+	.banner_right {
+
+		float: left;
+	}
+
+}
+*/
+/* 320px (iPhone portrait) */
+@media screen and (max-width: 768px) 
+{
+	body {
+		font-size: 14px;
+	}
+	nav ul li {
+
+		display: block;
+		height: 4em;
+	}
+	.banner_right {
+		float: left;
+	}
+}
