@@ -4,11 +4,10 @@
 }
 
 body {
-	background: rgba(0,0,0,1);
 	font-family: helvetica, arial, sans-serif;	
 	font-size: 16px;
 	margin: auto;
-	width: 77em;
+	width: 76em;
 }
 
 .container {
@@ -32,23 +31,22 @@ p{
 }
 
 .banner {
-	background: rgba(255, 0, 255, 1);	
 	background-image:  url('../images/gd2.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;	
-	color: black;
+	color: rgba(26, 188, 156, 1);	
 	height: 6.5em;
 	padding: 2em;
 	width: 100%;
 }
 .banner_left {
 	float: left;
+
 }
 .banner_right {
 	float: right;
 }
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -57,7 +55,7 @@ nav ul {
 }
 
 nav a {
-    background-color: purple;
+	background: rgba(0, 0, 0, .3);	    
     border: 0.15em solid white;  
     color: white;      
     padding: 0.5em 0.5em;    
@@ -70,25 +68,27 @@ nav ul li {
 }
 
 a:hover {
-    background-color: fuchsia;
+	background: rgba(26, 188, 156, .5);	     
 }
 
 #slogan {
+	color: rgba(255, 255, 255, 1);
 	font-size: 1.5em;
 	margin: auto;
-	padding: 2em;
+	padding: 0 2em;
 }
 
 .hero {
-	background: brown;
-
+	background: rgba(58, 95, 205, .75);	
 	font-size: 1em;
+	font-weight: 800;
 	padding: 2em;		
 }
 
 .hero1 {
-	background: pink;
+	background: rgba(26, 188, 156, 1);	
 	border-radius: .5em;
+	color: rgba(255, 255, 255, .7);
 	display: inline-block;
 	font-size: 1.5em;		
 	padding: .5em;		
@@ -96,8 +96,9 @@ a:hover {
 }
 
 .hero2 {
-	background: lightblue;
-	border-radius: .5em;	
+	background: rgba(0, 0, 0, 1);
+	border-radius: .4em;	
+	color: rgba(255, 255, 255, 1);
 	display: inline-block;
 	font-size: 1.7em;	
 	margin: .5em;
@@ -106,23 +107,30 @@ a:hover {
 }
 
 .hero3 {
-	background: gray;
-	border-radius: .5em;
+	background: rgba(26, 188, 156, 1);	
+	border-radius: .3em;
+	color: rgba(255, 255, 255, 1);
 	display: inline-block;
 	font-size: 1.5em;
 	list-style: 1.6em;		
 	padding: .5em;		
 	width: 35%;
 }
-
-.hero_stmt {
-	background: brown;
-	width: 100%;
+.hero3 a {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
 }
 
 .fades {
 	padding: 2em;
 	line-height: 3em;
+}
+
+.maroon {
+	background: rgba(128, 0, 0, .75);
+	font-size: 1.8em;
+	height: 14em;
+	padding: 1.5em;		
 }
 
 section {
@@ -141,6 +149,7 @@ section {
 .header {
 	padding: 1em 0;
 }
+
 footer {
 	text-align: center;
 }
@@ -238,13 +247,55 @@ footer {
 {
 	body {
 		font-size: 14px;
+		margin: 0;
+		width: auto;
 	}
+
+	.banner_left {
+		float: none;
+		width: 100%;
+
+	}
+
+
+	.container {
+		width: 100%;
+	}
+
+	.banner {
+		height: 20em;
+		padding: 2em;
+		width: 100%;
+	}
+	nav a {
+		clear: both;
+		background: rgba(0, 0, 0, 1);	    
+    	padding: 0.5em 0.5em;    
+      
+	}
+
+	nav ul li {
+		display: block;
+		float: right;
+		width: 15em;
+		font-size: 200%;
+		margin: 0;
+		overflow: auto;
+		line-height: 2em;
+	}
+
+
+/*
 	nav ul li {
 
 		display: block;
 		height: 4em;
+		width: 100%;
 	}
 	.banner_right {
-		float: left;
+		float: none;
+		width: 100%;
 	}
+
+*/
 }
