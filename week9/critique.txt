@@ -1,0 +1,52 @@
+
+Step 1: Reflection
+
+Create a document answering the following:
+
+Which existing websites out there most inspired your web site design thus far?
+-http://everywhere.is/#/
+-http://imaworkhorse.com/index.html
+-http://codifyacademy.com/index.php
+-http://davidmurray.is/
+
+Which parts of the design are you most proud of?
+-flow and mobile combatibility
+What struggles did you encounter in your design process?
+-mobile, color, typography, columns
+Which struggles did you encounter during page development?
+-learning the wire frame
+What did you learn from making your project responsive?   
+- ideally its best to start mobile first  
+
+Step 2: Reviews
+
+Group 1 much better than group 2.
+
+Review a website from group 1 and a website from group 2 of the following list, commenting on each website's layout, typography, navigation, and overall flow. 
+
+Group 1
+https://medium.com/
+like the font/ do not like sites that force you to log
+
+http://www.sagmeisterwalsh.com/
+like the unique flow / took some time to think about how to access
+
+http://squarespace.com/home/overview/
+like the flow, like the way you wrap around the pages /obvious product marketing
+
+http://www.businessoffashion.com/
+straight forwared traditional / like it a lot
+
+Group 2
+
+http://www2.warnerbros.com/spacejam/movie/jam.htm
+old fashion / not clear
+
+http://cavs.mit.edu/
+interesting topic, site is busy, flashy an a bit cluttered
+
+http://www.spectrumpowderworks.com/
+like some of the effects / poor navigation, but unique
+
+http://mimarch.net/
+to clutttered hard to follow
