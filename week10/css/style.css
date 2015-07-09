@@ -1,40 +1,22 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: gray;
 	font-size: 16px;	
 	font-family:  Calibri, Arial, sans-serif;
 }
-h1{
-	color: white;	
-	font-family: "Lato", sans-serif;
-	font-size: 2rem;	
+section {
+	font-size: 1.7rem;	
+	overflow: hidden;	
+	height:100vh;	
 }
-.row_0 {
-	/*
-	background-image:  url('../images/me_pic.jpg');
-	*/
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;	
-	background: rgba(0, 0, 0, 1);
-	height: 3.5rem;
-	margin: auto;
-	padding: .25rem;
-	width: 100%;
+section p {
+	color: rgba(255, 255, 255, 1.0);
+	text-align: left;
 }
-.row_l {	
-	float: left;
-}
-.row_r {  	
-	float: right;
-}
-.hero {
-	clear: both;
-}
+
 /*Strip the ul of padding and list styling*/
 nav ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;		
 }
 
 /*Create a horizontal list with spacing*/
@@ -42,6 +24,7 @@ nav li {
 	display: inline-block;
 	float: left;
 	margin-right: 1px;
+	position:relative;
 }
 
 /*Style for menu links*/
@@ -66,8 +49,6 @@ nav li:hover a {
 nav li:hover ul a {
 	background: #f3f3f3;
 	color: #2f3036;
-	height: 40px;
-	line-height: 40px;
 }
 
 /*Hover state for dropdown links*/
@@ -78,7 +59,13 @@ nav li:hover ul a:hover {
 
 /*Hide dropdown links until they are needed*/
 nav li ul {
-	display: none;
+	position:absolute;
+	top:-100px;
+}
+nav li:hover ul {
+	position:absolute;
+	top:0;
+	transition-duration:1s;
 }
 
 /*Make dropdown links vertical*/
@@ -98,7 +85,15 @@ nav li ul li a {
 nav ul li a:hover + .hidden, .hidden:hover {
 	display: block;
 }
-
+footer {
+	color: rgba(255, 255, 255, 1.0);
+	text-align: center;
+}
+h1{
+	color: white;	
+	font-family: "Lato", sans-serif;
+	font-size: 2rem;	
+}
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -109,22 +104,6 @@ nav ul li a:hover + .hidden, .hidden:hover {
 	padding: .625rem 0;
 	display: none;
 }
-
-.content {
-	margin: auto;
-	width: 75%;
-}
-
-section {
-	font-size: 1.7rem;	
-    height: 0;
-    overflow: hidden;	
-	padding-bottom: 45%;	
-}
-section p {
-	color: rgba(255, 255, 255, 1.0);
-	text-align: left;
-}
 /*Hide checkbox*/
 input[type=checkbox]{
     display: none;
@@ -134,7 +113,33 @@ input[type=checkbox]{
 input[type=checkbox]:checked ~ #menu{
     display: block;
 }
+.content {
+	margin: auto;
+	width: 75%;
+}
 
+.row_0 {
+	/*
+	background-image:  url('../images/me_pic.jpg');
+	*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;	
+	background: rgba(0, 0, 0, 1);
+	height: 3.5rem;
+	margin: auto;
+	padding: .25rem;
+	width: 100%;
+}
+.row_l {	
+	float: left;
+}
+.row_r {  	
+	float: right;
+}
+.hero {
+	clear: both;
+}
 #about {
 	background: tan;
 }
@@ -170,17 +175,6 @@ input[type=checkbox]:checked ~ #menu{
      height: 0;
 }
 
-.clearfix { 
-	display: inline-block; 
-}
-
-* html .clearfix { 
-	height: 1%; 
-}
-
-.clearfix { 
-	display: block; 
-}
 .partitions {
   	float: right;
 }
@@ -210,10 +204,7 @@ input[type=checkbox]:checked ~ #menu{
 	text-align: left;
 }
 
-footer {
-	color: rgba(255, 255, 255, 1.0);
-	text-align: center;
-}
+
 /* transition hero */
 
 #slogan {
