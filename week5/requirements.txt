@@ -1,0 +1,50 @@
+Business is "Ken Posey Web designer".
+
+Step 1
+1) Who will visit your site?
+
+Potential clients will be small businesses and individuals needing simple/responsive websites, or website redesign.
+
+2) Who are your competitors in similar industries?
+   
+a) Other individuals designers and small web design firms.
+b) Do it yourself site like Wix
+
+
+3) What can make you and/or your product stand out against your competitors?
+a) I offer a formal visual design process with all of our clients ensuring for high quality and thoughtful designs.
+b) I offer modern responsive design, commented code, classically styled with modern functionality, browser compatibility
+
+4) How would you speak to your clientele if you were communicating in person?
+
+"Hi, my name is Ken Posey. I am a web designer. I offer custom web deigns that communicates your business message, that engage the customer and promote and market your website".
+
+How could you translate that style and tone digitally?
+"I will need to show an example through my own site".
+
+5) What colors represent your restaurant/business?
+  black, white, brown, yellow, blue
+
+6) What images illustrate your message?
+Chalk board, artist color palette, camera, computer, smart phone
+
+Step 2
+Identify Content (two pages, a home page and one other page of your choice )
+1) Make sure to clearly describe the name, look, and purpose of each page.
+
+Landing page should contain:
+    header: Business name, tagline, logo
+    Navigation: About, service, portfolio
+    main section: some info about the business ,
+    footer: with copyright notice
+Services page should contain a list:
+    Navigation: About, service, portfolio
+    "i do high quality web design": design, Search Engine Optimization, responsive"
+    footer: with copyright notice
+
+
+
+
+
+
+

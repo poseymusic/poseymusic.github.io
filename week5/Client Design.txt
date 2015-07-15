@@ -1,0 +1,51 @@
+ Step 1: Define Your Audience/Tone
+
+In steps 1 and 2 of this project, you'll be playing the role of the client. Once you've completed these two steps, you'll email the documents you create to your partner.
+
+Pretend you've decided to outsource the design and construction of the website you’ve been working on in the first four units. Your partner will be playing the role of the designer to whom you’ve outsourced this work. In order for your partner to understand your goals, create a document telling them a little more about your site.
+
+Use these questions to outline your thoughts:
+
+    Who will visit your site?
+    Who are your competitors in similar industries?
+    What can make you and/or your product stand out against your competitors?
+    How would you speak to your clientele if you were communicating in person? How could you translate that style and tone digitally?
+    What colors represent your restaurant/business?
+    What images illustrate your message?
+
+If you'd like to see a sample, follow this document as a guide.
+Step 2: Identify Content
+
+In this step, you'll provide your designer with additional context by describing the hierarchy and flow of your site. Use the following questions as a guide and add your answers to the document from step 1:
+
+    Imagine your site has two pages, a home page and one other page of your choice (about, contact, gallery, etc.). Would the design remain constant across both pages? How so? How would the design differ?
+    Make sure to clearly describe the name, look, and purpose of each page.
+    What should each page contain? Will there be text content? Or just images?
+
+Again, if you'd like to see a sample, continue using the document from step one as a guide.
+
+When you're done, email your completed document with your detailed outline to your partner. In the ensuing steps, you will play the role of designer and use the document your partner created in steps 1 and 2 to help them design their website.
+Step 3: Create Wireframes
+
+Okay. Time to remove your client hat and put on your designer hat. Ready?
+
+Review the document your partner has emailed you. Using lines and basic shapes, create wireframes for their website. Remember to incorporate boxes for the nav, header, footer, and body.
+
+Think about the meaning and utility of each page, and decide which design patterns will remain consistent across the site and which design patterns will change depending on page-specific content.
+
+As you're creating wireframes, make sure to keep the design principles we've learned in mind, such as focal point, hierarchy, balance, and grid-based layouts.
+Step 4: Submission and Feedback
+
+Email your partner the wireframes you created for them. In the email, make sure to ask what they would like changed as well as the following questions:
+
+    Will the wireframe appeal to the site's visitors?
+    Are your products or services elevated in you website's hierarchy?
+    Would the page stand out against your competitor's pages?
+    Does the style represent your restaurant's / business's brand?
+
+Step 5: Update Wireframes
+
+Once you've received your partner's general feedback and the answers to the questions listed above, make revisions to your original design of the wireframes.
+Step 6: Submission
+
+Email your partner your revised version of the wireframes for their site. Then, similar to the unit 2 project submission, create a folder in your local repository for this unit (title it "unit5"), add your wireframe files to the folder, sync your folder to Github, and share the URL when you submit your project.

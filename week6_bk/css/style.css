@@ -1,0 +1,97 @@
+body {
+	background-image: url("images/nematocyst.jpg");
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+h1,h2 {
+	text-transform: capitalize;
+	border-bottom: 4px solid black;
+	display: inline-block;
+	font-weight: 800;
+} 
+
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	padding: .8em 0;
+	color: #fffebb;  
+	border-bottom-color: #fffebb;  
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 240px;  
+} 
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+  	width: 50%;
+  	height: 6em;
+	outline: 3px solid #222;
+	text-align: center;
+	line-height: 6em; 
+	color: #000;
+	background: #fff;  
+	background-color: rgba(248, 247, 216, 0.7);
+}
+
+nav {
+	background: gray;
+	font-size: 1em;
+	padding: 10px;
+
+ 	
+} 
+
+nav a {	
+	text-decoration: none;
+	color: black;
+	margin: 1.8em;
+	display: inline-block;
+}
+section {
+	background: #222;
+  	color: #fff;
+	overflow: auto;  
+}
+div {
+	font-size: 1.2em;
+	width: 46%;
+	display: inline-block;
+  	padding: 2%;
+}
+#hero {
+	display: block;
+  	width: 100%;
+  	margin: 0;
+  	background: #fffebb;
+  	background-color: rgba(248, 247, 216, 0.7);
+}
+#about {
+	float: left;
+  
+}
+
+#services {
+  	float: right;
+
+}
+
+footer {
+	text-align: center;
+	padding: 1em 0;
+ 	clear: both;
+}

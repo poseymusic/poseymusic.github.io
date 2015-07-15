@@ -1,0 +1,112 @@
+body {
+	background-color: tan;
+	color: rgba(255,255,255,1);
+	font-size: 16px;	
+	font-family:  Calibri, Arial, sans-serif;
+	width: 100
+}
+
+h1 {
+	font-size: 2rem;
+}
+.nline {
+	display: inline;
+}
+/* */
+
+.container {
+	background: yellow;
+	padding-bottom: 5%;
+}
+.content {
+	padding-bottom: 5%;	
+}
+nav {
+	padding-bottom: 5%;	
+}
+header {
+	background: blue;
+	padding-bottom: 5%;
+}
+section {
+	background: orange;
+	padding-bottom: 5%;	
+}
+footer {
+	background: gray;
+	padding-bottom: 5%;	
+}
+/* */
+nav li {
+    float: left;
+   
+}
+nav ul li a{
+    text-decoration: none;
+}
+.row_0 {
+	background: rgba(0,0,0,1);
+
+	padding-bottom: .5rem;
+	width: 100%;
+}
+.row_l {
+	float: left;
+	width: 50%;
+}
+.row_r {
+	float: right;
+	width: 50%;	
+}
+section {
+	width: 60rem;
+	background: orange;
+	
+}
+
+.content {
+	margin: 0;
+	width: 80%;
+}
+
+.clearfix:after {
+     clear: both;     
+     content: " ";     
+     display: block;
+     font-size: 0;
+     height: 0;
+     visibility: hidden;     
+}
+
+/* Responsive Styles */
+@media screen and (max-width : 760px){
+	/*Make dropdown links appear inline*/
+	h1 {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	nav ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	nav li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	nav ul li, nav li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+
+	section {
+		font-size: 1.3rem;		
+    	height: 100%;
+    	overflow: visible;	
+		padding: 0;	
+	}	
+	nav .show-menu {
+		display:block;
+	}
+
+}

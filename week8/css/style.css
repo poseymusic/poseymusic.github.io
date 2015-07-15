@@ -1,35 +1,32 @@
+/* new style sheet */
 * { margin: 0; 
 	padding: 0; 
 	box-sizing: border-box; 
 }
-
 body {
 	font-family: helvetica, arial, sans-serif;	
 	font-size: 16px;
-	margin: auto;
-	width: 76em;
 }
-
-.container {
-	width: 90%;
+.content {
+	margin-right: 20%;
+	margin-left: auto;
+	width: 75%;
 }
-
-h1, h2 {
-	font-family: 'Londrina Shadow', cursive;
-}
-
 h1 {
-	font-size: 3.0em;
+	font-family: Arial;
+	font-size: 3.0em;	
 }
-
 h2 {
-	font-size: 1.75em;
+	font-family: 'Londrina Shadow', cursive;
+	font-size: 1.75em;	
+	margin: .5em 0 ;
 }
-
 p{
 	font-size: 1em;
 }
-
+button {
+	position: fixed;
+}
 .banner {
 	background-image:  url('../images/gd2.jpg');
 	background-repeat: no-repeat;
@@ -42,18 +39,16 @@ p{
 }
 .banner_left {
 	float: left;
-
 }
 .banner_right {
 	float: right;
 }
-nav ul {
+nav {
     list-style-type: none;
-    margin: 0;
     padding: .2em;
     overflow: hidden;
+	display: inline;    
 }
-
 nav a {
 	background: rgba(0, 0, 0, .3);	    
     border: 0.15em solid white;  
@@ -63,19 +58,12 @@ nav a {
     text-decoration: none;        
 }
 
-nav ul li {
-	display: inline;
-}
-
 a:hover {
 	background: rgba(26, 188, 156, .5);	     
 }
 
 #slogan {
 	color: rgba(255, 255, 255, 1);
-	font-size: 1.5em;
-	margin: auto;
-	padding: 0 2em;
 }
 
 .hero {
@@ -126,29 +114,21 @@ a:hover {
 	line-height: 3em;
 }
 
-.maroon {
-	background: rgba(128, 0, 0, .75);
-	font-size: 1.8em;
-	height: 14em;
+.landing {
+	background: rgba(128, 0, 0, .75);	
 	padding: 1.5em;		
 }
 
 section {
 	background: rgba(210, 180, 140, 1);
 	border-radius: .25em;
-	font-size: 1.8em;
-	height: 20em;
 	padding: 1.5em;
-	width: 95%;
 }
 
 #about, #services, #portfolio, #experience, #skills, #contact {
 		margin: 1em auto;
 }
 
-.header {
-	padding: 1em 0;
-}
 
 footer {
 	text-align: center;
@@ -247,55 +227,19 @@ footer {
 {
 	body {
 		font-size: 14px;
+
 		margin: 0;
+
 		width: auto;
 	}
 
-	.banner_left {
-		float: none;
-		width: 100%;
-
-	}
-
-
-	.container {
-		width: 100%;
-	}
-
-	.banner {
-		height: 20em;
-		padding: 2em;
-		width: 100%;
-	}
 	nav a {
 		clear: both;
-		background: rgba(0, 0, 0, 1);	    
+		background: rgba(0, 0, 0, 1);	
+		display: block;    
     	padding: 0.5em 0.5em;    
-      
-	}
-
-	nav ul li {
-		display: block;
-		float: right;
-		width: 15em;
-		font-size: 200%;
-		margin: 0;
-		overflow: auto;
-		line-height: 2em;
+		line-height: 3em;    	   
 	}
 
 
-/*
-	nav ul li {
-
-		display: block;
-		height: 4em;
-		width: 100%;
-	}
-	.banner_right {
-		float: none;
-		width: 100%;
-	}
-
-*/
 }

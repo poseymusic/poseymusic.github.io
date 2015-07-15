@@ -1,0 +1,75 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html {
+	background-image: url('../images/gd2.jpg');
+	background-size: contain;
+}
+body {
+	
+	color: #ffffff;
+	font-family: helvetica, arial, sans-serif;
+	font-size:16px;
+}
+header {
+	border-bottom: 2px solid #ffffff;
+}
+section {
+	background-color: rgba(89,89,89,.75);
+	border-radius: .5em;
+	margin: 1em auto;
+	max-width: 37.5em;
+	padding: 1em;
+	/* */
+	background-image: url('../images/gd2.jpg');
+	background-size: cover;	
+
+}
+footer {
+
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+p {
+	margin-top:1em;
+}
+.header_font {
+	font-family: 'Londrina Shadow', cursive;
+}
+
+.para_font {
+	font-family: 'Lora', serif;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff0000;
+
+}
+
+a.hover_it:hover {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.doublespace {
+	line-height: 2em;
+}
+
+#slogan {
+	color: #ff0000;
+	font-style: italic;
+	font-weight: 800;
+}
+
+.folio {
+	border: 1px solid;
+	width: 33.33%
+	float: left;
+
+}
+
+

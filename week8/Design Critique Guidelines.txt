@@ -1,0 +1,47 @@
+Design Critique Guidelines: Presenting Your Work
+
+* The critique is built upon a community of trust. The discussion is about your work—not about you as an individual.
+* Set the context at the outset. Help your audience understand the problem you were trying to solve.
+* Invite specific feedback. Ask questions that elicit focused guidance, rather than generalized feedback.
+* Listen openly. Not every piece of feedback requires a response.
+* Take notes and respond strategically. During a critique, consider new ideas, admit when you’re wrong, and "kill your darlings" —ideas for which you're sentimental, but which no longer help your design—when needed.
+
+Help your audience understand the problem you were trying to solve.
+
+Step 1: Reflection
+
+Create a document answering the following:
+
+    Which existing websites out there most inspired your web site design thus far?
+    Which parts of the design are you most proud of?
+    What struggles did you encounter in your design process?
+    Which struggles did you encounter during page development?
+    What did you learn from making your project responsive?     
+
+Step 2: Reviews
+
+Review a website from group 1 and a website from group 2 of the following list, commenting on each website's layout, typography, navigation, and overall flow. 
+
+
+
+
+
+Group 1
+
+https://medium.com/
+
+http://www.sagmeisterwalsh.com/
+
+http://squarespace.com/home/overview/
+
+http://www.businessoffashion.com/
+
+Group 2
+
+http://www2.warnerbros.com/spacejam/movie/jam.htm
+
+http://cavs.mit.edu/
+
+http://www.spectrumpowderworks.com/
+
+http://mimarch.net/

@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #00305A;
+	color: #ffffff;	
+	margin: auto;
+	background-image: url("images/nematocyst.jpg");
+	background-repeat: no-repeat;
+/*
+	font-family: "Open Sans", sans-serif;	
+	*/
+}
+
+h1 {
+	font-size: 32px;
+	font-style: italic;
+}
+h2 {
+	font-size: 32px;
+	font-style: italic;
+}
+
+header {
+	background: #00305A;
+	font-size: 18px;
+	font-style: italic;
+}
+
+nav {
+	clear: both;	
+	font-family: Arial, sans-serif;
+	margin: auto;
+	width: 400px;
+}
+
+a {
+	background: #176F9F;
+	color: #B2E571;
+	display: block;
+	float: left;
+	padding: 10px;
+	text-decoration: none;
+}
+
+a:hover {
+	background: #aaaaaa;
+	color: #000000;
+}
+
+h1 a {
+	background: #00305A;
+	text-align: center;
+}
+
+.active_page{
+	color: #ffffff;
+}
+
+.colunms {
+	clear: both;
+	margin: auto;
+	width: 960px;
+}
+
+#hero_left, #hero_right {
+	background: #00305A;
+	padding: 10px;
+
+}
+#hero_left {
+	float: left;
+}
+
+#hero_right {
+	float: right;
+}
+
+.container{
+	margin: auto;
+	width: 1060px;
+
+}
+
+section {
+	clear: right;
+	float: left;
+	padding: 20px;
+	margin: 0;
+	width: 33%;
+}
+
+#about {
+	/*
+	background: #00305A;
+	*/
+	background: #CBC9CF;
+
+}
+#work {
+	background: #176F9F;
+}
+#contact {
+	background: #669900;
+}
+
+footer {
+	background: #00305A;
+	clear: both;
+	color: #ffffff;
+	padding: 15px;
+	text-align: center;
+
+}
+
+.clearfix:after {
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}

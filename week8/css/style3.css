@@ -1,0 +1,148 @@
+/* new style sheet */
+* { margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+body {
+	font-family: helvetica, arial, sans-serif;	
+	font-size: 16px;
+}
+.content {
+	margin-right: 20%;
+	margin-left: auto;
+	width: 75%;
+}
+h1 {
+	font-family: Arial;
+	font-size: 3.0em;	
+}
+h2 {
+	font-family: 'Londrina Shadow', cursive;
+	font-size: 1.75em;	
+	margin: .5em 0 ;
+}
+p{
+	font-size: 1em;
+}
+button {
+	position: fixed;
+}
+.banner {
+	background-image:  url('../images/gd2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;	
+	color: rgba(26, 188, 156, 1);	
+	height: 6.5em;
+	padding: 2em;
+	width: 100%;
+}
+.banner_left {
+	float: left;
+}
+.banner_right {
+	float: right;
+}
+/*
+nav {
+    list-style-type: none;
+    padding: .2em;
+    overflow: hidden;
+	display: inline;    
+}
+nav a {
+	background: rgba(0, 0, 0, .3);	    
+    border: 0.15em solid white;  
+    color: white;      
+    padding: 0.5em 0.5em;    
+    text-align: center;
+    text-decoration: none;        
+}
+*/
+a:hover {
+	background: rgba(26, 188, 156, .5);	     
+}
+
+#slogan {
+	color: rgba(255, 255, 255, 1);
+}
+
+.hero {
+	background: rgba(58, 95, 205, .75);	
+	font-size: 1em;
+	font-weight: 800;
+	padding: 2em;		
+}
+
+.hero1 {
+	background: rgba(26, 188, 156, 1);	
+	border-radius: .5em;
+	color: rgba(255, 255, 255, .7);
+	display: inline-block;
+	font-size: 1.5em;		
+	padding: .5em;		
+	width: 45%;	  	
+}
+
+.hero2 {
+	background: rgba(0, 0, 0, 1);
+	border-radius: .4em;	
+	color: rgba(255, 255, 255, 1);
+	display: inline-block;
+	font-size: 1.7em;	
+	margin: .5em;
+	padding: .5em;	
+	width: 70%;		
+}
+
+.hero3 {
+	background: rgba(26, 188, 156, 1);	
+	border-radius: .3em;
+	color: rgba(255, 255, 255, 1);
+	display: inline-block;
+	font-size: 1.5em;
+	list-style: 1.6em;		
+	padding: .5em;		
+	width: 35%;
+}
+.hero3 a {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+
+.fades {
+	padding: 2em;
+	line-height: 3em;
+}
+
+.landing {
+	background: rgba(128, 0, 0, .75);	
+	padding: 1.5em;		
+}
+
+section {
+	background: rgba(210, 180, 140, 1);
+	border-radius: .25em;
+	padding: 1.5em;
+}
+
+#about, #services, #portfolio, #experience, #skills, #contact {
+		margin: 1em auto;
+}
+
+
+@media screen and (max-width: 768px) 
+{
+
+	.banner_right; {
+
+	}
+	nav {
+		background: black;
+		width: 105%;
+		line-height: 100px;
+	}
+	a { display: block;
+		padding: 
+	}
+}

@@ -373,7 +373,7 @@ label {
     	overflow: visible;	
 		padding: 0;	
 	}	
-	.show-menu {
+	nav .show-menu {
 		display:block;
 	}
 
