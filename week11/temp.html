@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ken Posey Web Design/Development</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://ajax.googleapis. com/ajax/libs/jquery/2.1.3/ jquery.min.js">
+	</script>
+	<style type="text/css">
+body {
+	background-color: gray;
+	font-size: 16px;	
+	font-family:  Calibri, Arial, sans-serif;
+}
+
+h1{
+	color: rgba(255,255,255,1);
+	font-family: "Lato", sans-serif;
+	font-size: 2rem;	
+}
+
+/*Strip the ul of padding and list styling*/
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;		
+}
+
+/*Create a horizontal list with spacing*/
+nav li {
+	display: inline-block;
+	float: left;
+	margin-right: .0625rem;
+}
+
+/*Style for menu links*/
+nav li a {
+	background: #2f3036;
+	color: rgba(255,255,255,1);
+	display: block;	
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	line-height: 3.125rem;
+	min-width: 6.25rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+/*Hover state for top level links*/
+nav li:hover a {
+	background: #19c589;
+}
+
+/*Style for dropdown links*/
+nav li:hover ul a {
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+nav li:hover ul a:hover {
+	background: #19c589;
+	color: #fff;
+}
+
+/*Hide dropdown links until they are needed*/
+nav li ul {
+	display: none;
+}
+
+/*Make dropdown links vertical*/
+nav li ul li {
+	display: block;
+	float: none;
+}
+
+/*Prevent text wrapping*/
+nav li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+nav ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+.row_0 {
+	/*
+	background-image:  url('../images/me_pic.jpg');
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;	
+	*/
+	background: rgba(0, 0, 0, 1);
+	height: 3.5rem;
+	margin: auto;
+	padding: .25rem;
+	width: 100%;
+}
+.row_l {	
+	float: left;
+}
+.row_r {  	
+	float: right;
+}
+.hero {
+	clear: both;
+}
+
+/* Style 'show menu' label button and hide it by default */
+.show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: #19c589;
+	text-align: center;
+	padding: .625rem 0;
+	display: none;
+}
+.content_2 {
+	margin: auto;
+	width: 85%;
+}
+
+.content {
+	margin: auto;
+	width: 75%;
+}
+
+section {
+	font-size: 1.7rem;	
+    height: 100vh;
+    overflow: hidden;		
+}
+section p {
+	color: rgba(255, 255, 255, 1.0);
+	text-align: left;
+}
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+/************************************
+	*******section colors********
+************************************/
+#about {
+	background: tan;
+}
+
+#services {
+	background: lightgray;
+}
+
+#portfolio {
+	/*
+	background: lightblue; 
+	*/
+	background: tan;
+}
+#experience {
+	background: gray;
+}
+#skills {
+	background: lightgray;
+}
+
+#contact {
+	background: black;
+	color: white;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+/*       */
+
+.partitions {
+  	float: right;
+}
+
+.partitions ul {
+	list-style: none;
+}
+
+.partitions li {
+	color: #000000; 	
+	float: left;
+  	/*
+  	height: 11.5rem; 
+  	*/ 	
+  	height: 25vh;
+	outline: 3px solid #222;
+	text-align: center;
+  	width: 50%;	
+}
+
+.partitions li a {
+	display: block;
+	margin: 0;
+	padding: 1.5rem; 
+	text-decoration: none;  
+}
+.partitions li p {
+	display: block;
+	padding:  .25rem; 
+	text-align: left;
+}
+/*       */
+footer {
+	color: rgba(255, 255, 255, 1.0);
+	text-align: center;
+}
+/* transition hero */
+
+#slogan {
+	color: rgba(255, 255, 255, 1);
+	font-size: 1.5rem;
+	font-style: italic;
+}
+.landing {
+	font-size: 1.5rem;
+}
+.hero {
+	clear: right;
+	line-height: .5rem;
+	margin-left: 28%;
+	margin-top: 0;
+}
+.hero1 {
+	background: #19c589;
+	border-radius: .4em;		
+	color: rgba(255, 255, 255, 1);
+	font-size: 1.4em;	
+	font-style: italic;	
+	margin: 0;	
+	padding: 0 .125em;		
+	width: 40%;	  	
+}
+
+.hero2 {
+	background: rgba(0, 0, 0, 1);
+	color: rgba(255, 255, 255, 1);
+	font-size: 1.6em;	
+	font-style: italic;	
+	padding: 0 .125em;	
+	width: 60%;		
+}
+
+.hero3 {
+	background: #19c589;	
+	border-radius: .3em;
+	font-size: 1.4em;
+	font-style: italic;			
+	padding: 0 .125em;		
+	width: 30%;
+}
+.hero3 a {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+
+/* */
+/***********
+ form
+************** */
+
+form {
+	background-color: #eaeaea;
+	font-family: Arial, sans-serif;
+	padding: .625rem;
+	width:  100%;
+}
+label {
+	clear: left;
+	display: block;
+	float: left;
+	margin-top: .625rem;
+	padding-top: .625rem;
+	text-align: left;
+	width: 8rem;
+}
+
+input, textarea {
+	display: block;
+	margin-top: .625rem;
+}
+
+.submit-button {
+	margin-left: 8.875rem;
+	width: 8rem;
+}
+/*
+
+
+*/
+
+.fades {
+	padding: 2em;
+	line-height: 2rem;
+}
+.fader1 {
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+.fader2 {
+    -webkit-animation: fadein 13s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 13s; /* Firefox < 16 */
+        -ms-animation: fadein 13s; /* Internet Explorer */
+         -o-animation: fadein 13s; /* Opera < 12.1 */
+            animation: fadein 13s;
+}
+
+.fader3 {
+    -webkit-animation: fadein 23s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 23s; /* Firefox < 16 */
+        -ms-animation: fadein 23s; /* Internet Explorer */
+         -o-animation: fadein 23s; /* Opera < 12.1 */
+            animation: fadein 23s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Responsive Styles */
+@media screen and (max-width : 760px){
+	/*Make dropdown links appear inline*/
+	h1 {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	nav ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	nav li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	nav ul li, nav li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+
+	.hero {
+		display: none;
+	}
+	.partitions {
+
+	}
+	section {
+		font-size: 1.3rem;		
+    	height: 100%;
+    	overflow: visible;	
+		padding: 0;	
+	}	
+	nav .show-menu {
+		display:block;
+		width: 100%;
+	}
+}
+
+	</style>
+</head>
+<body class="clearfix">
+<div class="container">	<!-- <div class="container" -->
+	<header id="home">	
+		<div  class="row_0"> <!-- row -->
+      		<div class="content_2"><!-- <div class="content" -->		
+				<div class="row_l">
+					<h1><span style="color:#19c589;"> Ken Posey </span>Web Design</h1>
+				</div>  <!-- row_l -->
+				<div class="row_r">	
+					<nav>				
+						<label for="show-menu" class="show-menu">Menu</label>
+						<input type="checkbox" id="show-menu" role="button">
+						<ul id="menu">
+							<li><a href="#about">About</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#experience">Experience</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div><!-- row_r -->
+	  		</div> <!-- content -->			
+		</div> <!-- row_0 -->
+        <div class="content"><!-- <div class="content" -->	
+			<div class="split">
+			<p class="split_l" id="slogan">"Specializing in classic-modern web design and development"</p>	     
+        	<div class="hero split_r"><!-- <div class="hero" -->
+        		<div class="fades">        	
+        			<p class="fader1 hero1">Ambition, dedication, talent.</p>
+         			<p class="fader2 hero2">Digital creative UX designer/developer.</p>
+         			<p class="fader3 hero3"><a href="#contact">Contact Me Now</a></p>
+				</div>				         	
+			</div><!-- <div class="hero" --> 
+			</div>
+		</div><!-- <div class="content" -->				
+		<div class="landing">	<!-- <div class="landing" -->	
+			<div class="content"><!-- <div class="content" -->		
+				<h2>Web Development and Design:</h2>			
+				<p>I'm a freelance web designer/developer for various kinds of coding projects. I create the the stuff that makes websites work, ensuring valid compliant code that displays correctly in multiple web browsers. I build it all with care and attention to detail; cleanly designed for SEO; organized and commented so it’s easy to modify and maintain. My goal is to work with my client to help them identify who they are and communicate that identity through their website.
+				</p>	
+			</div><!-- <div class="content" -->	
+			<div="bute">
+				<button><a href="#home">go back</a></button>
+			</div>	<!-- <div class="bute" -->
+		</div> <!-- <div class="landing" -->
+	</header>
+
+	<section id="about">
+		<div class="content"><!-- <div class="content" -->					
+			<h2>about:</h2>			
+    		<p class="para_font">My goal is to create sublime interactive user experiences with friendly functionally addictive web environments; building creative and effective websites; specializing in performance and marketing strategy.</p>	
+    		<p>add some responsive to desktop transitions</p>	
+    		<p>The goal of UX design is to create a seamless, simple, and useful interaction between a user and a product, whether it be hardware or software. As with UI design, user experience design focuses on creating interactions. 
+    		</p> 	
+		</div><!-- <div class="content" -->	    					  			
+	</section>
+
+	<section id="services">	
+		<div class="content"><!-- <div class="content" -->			
+			<h2>services:</h2>
+			<ul>
+				<li>Responsive Web Design</li>
+				<li>Theme Development</li>
+				<li>Quality HTML5, CSS, jQuery and JavaScript</li>
+				<li>Defining Web Layout</li>
+				<li>Approach to problem solving</li>
+				<li>SEQ Search Engine Optimization</li>
+				<li>Marketing Strategy.</li>
+			</ul>	
+		</div><!-- <div class="content" -->	    					
+	</section>
+
+	<section id="portfolio">
+		<div class="content"><!-- <div class="content" -->						
+			<h2>portfolio:</h2>
+			<div class="partitions">
+				<ul>
+					<li>
+						<a href="http://www.risetheartist.com/" target="_blank">Rise the artist</a>
+						<p>This is a site designed for a music artist.</p>
+					</li>
+					<li>
+						<a href="https://poseymusic.wordpress.com/category/audio-for-digital-media/" target="_blank">Audio in digital media</a>
+						<p>A blog about the movie "Diva". Audio for digital media.</p>
+					</li>
+					<li>
+						<a href="https://poseymusic.wordpress.com/2014/11/03/audio-for-digital-media/" target="_blank">Scouting Locations</a>
+						<p>A blog on scouting locations for sound. Audio for digital media.</p>		
+					</li>
+					<li>
+						<a href="http://music.garken.com/" target="_blank">Poseymusic Old Site</a>
+						<p>A music website for poseymusic.</p>		
+					</li>
+				</ul>
+			</div><!-- <div class="partitions"-->	
+		</div><!-- <div class="content" -->				
+	</section>
+
+	<section id="experience">	
+		<div class="content"><!-- <div class="content" -->						
+			<h2>experience:</h2>
+			<ul>
+				<li>Web Design Circuit - General Assembly - San Francisco, CA</li>
+				<li>Web Sales and Marketing - Nady Audio Systems - Emeryville, CA</li>
+				<li>Document Management - Keryx Biopharmaceuticals  - San Francisco, CA</li>
+				<li>Marketing and Web Store Support - Avid - Daly City, CA</li>
+				<li>Tech Support Administration - IODA - San Francisco, CA</li>	
+				<li>Office Manager - DAP Entertainment - Los Angeles, CA</li>
+				<li>Staff Technology Support - Charles Schwab - San Francisco, CA</li>
+				<li>Product Support Engineer - InPower Corp - San Francisco, CA</li>
+				<li>Systems Analyst - Fritz Companies - San Francisco, CA</li>
+				<li>Programmer Analyst - Downey Savings and Loan - Newport Beach, CA</li>	
+				<li>Database Administrator - Quaker Oats - Chicago, IL</li>	
+				<li>Programmer - Baxter Healthcare - Deerfield, IL</li>												
+			</ul>
+		</div><!-- <div class="content" -->				
+	</section>
+
+	<section id="skills">
+		<div class="content"><!-- <div class="content" -->				
+			<h2>skills:</h2>
+			<p>A graduate of Western Illinois University with a focus of computer technology. Over 6 years commercial experience working in various web related roles, I have a wide range of skills; front end development, design, and back end development.</p>
+			<p class="doublespace para_font">Web Design, HTML5, CSS, JQuery, Javascript, Search Engine Optimization (SEO), Git, Github, PC, MAC, Linux, IOS, Excel, Word, PowerPoint, Photoshop, MySQL, Ruby, Rails, Bash Shell, Python, Django, MVC, Heroku, Salesforce, Project Development, Project Management, User Testing.</p>	
+		</div><!-- <div class="content" -->				
+	</section>
+
+	<section id="contact">
+		<div class="content"><!-- <div class="content" -->		
+			<h2>contact:</h2>
+
+			<p class="para_font">Ken Posey | <a href="mailto:kennethwposey@yahoo.com" target="_blank">kennethwposey@yahoo.com</a> | 415-826-9404 | San Francisco, CA</p>
+
+			<form method="post" action="contactengine.php">
+				<label for="Name">Name:</label>  
+				<input type="text" name="Name" id="Name" placeholder="name"/>
+				<br />
+	
+				<label for="Email">Email:</label>
+				<input type="text" name="Email" id="Email" placeholder="email address"/> 
+				<br />
+				
+				<label for="Message">Message:</label>
+				<textarea name="Message" rows="5" cols="20" id="Message" placeholder="enter a message"></textarea>
+				<br />
+
+				<input type="submit" name="submit" value="Submit" class="submit-button" />
+			</form>
+
+
+		</div><!-- <div class="content" -->		
+	</section>
+
+	<footer>
+		<div class="content"><!-- <div class="content" -->	
+			<p>social media</p>
+			<a href="#"><img src="images/hollow-cut-facebook.svg"></a>
+			<a href="#"><img src="images/hollow-cut-linkedin.svg"></a>
+			<a href="#"><img src="images/hollow-cut-twitter.svg"></a>			
+			<p>&copy; copyright 2015 Ken Posey &amp; Poseymusic.com</p>	
+		</div><!-- <div class="content" -->		
+	</footer>
+</div>
+</body>
+</html>
