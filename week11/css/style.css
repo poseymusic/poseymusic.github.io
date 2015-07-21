@@ -1,0 +1,289 @@
+
+/*
+#body {
+	color: white;
+	background: black;
+}
+*/
+/*
+#p {
+	color: #e95a50; /* tan */
+	/*
+	color: #19c589; /* green */
+	/*
+}
+*/
+body{
+	font-size: 16px;	
+	font-family:  Calibri, Arial, sans-serif;	
+}
+
+h1, h2	{
+	color: rgba(0,0,0,1);
+}
+h2 {
+	font-size: 2rem;
+	margin-bottom: .25rem;
+}
+p {
+	color: rgba(0,0,0,1);
+	margin-bottom: .5rem;
+}
+
+nav li {
+	display: inline;
+	float: left;
+	margin-right: 1rem;
+	text-decoration: none;	
+}
+
+nav ul  {
+	float: right;
+	font-variant: small-caps;
+	margin: 0;
+	padding: 0;
+
+}
+
+nav a {
+
+	color: rgba(255,255,255,1);
+	
+}
+nav li a {
+	background: #2f3036;
+	display: block;	
+	min-width: .25rem;
+	text-align: center;
+	text-decoration: none;
+}
+nav li:hover a {
+	background: #19c589;
+}
+header a {
+	color: rgba(255,255,255,1);
+	text-decoration:  none;
+}
+
+header {
+	background: rgba(0,0,0,1);
+	padding-bottom: 3rem;
+}
+
+.row_0 h1 {
+		width: 100%;
+		color: white;
+		line-height: 3rem;
+} 
+
+section {
+	clear: both;
+}
+#home{
+		background: rgba(0, 0, 0, .75);
+		padding-top: 2rem;
+		padding-bottom: 5rem;		
+}
+#home p {
+	font-size: 1.25rem;
+}
+
+#home p, #home a, #home h2 {
+		color: rgba(255,255,255,1);	
+}
+#home a:hover {
+		color: rgba(255,255,255,1);
+		background: rgba(33, 171, 233,1);
+}
+#about, #how{
+		background: tan;		
+}
+#services{
+		background: rgba(33, 171, 233,1);		
+}
+#slogan {
+	padding: .5rem;
+}
+.hero1, .hero2, .hero3 {
+	background: rgba(0,0,0,.5);
+	float: left;
+	margin: .5rem;
+	padding: 1.65rem;
+	width: 30%;
+}
+.landing {
+	clear: both;
+}
+
+.highlight a {
+	font-variant: small-caps;
+	text-decoration: none;
+	background: rgba(0,0,0,1);
+	color: rgba(33, 171, 233,1);
+	padding-top: .5rem;
+}
+#image {
+	line-height: 2rem;
+	margin: auto;
+	width: 90%;
+}
+#image h1 {
+	color: rgba(33, 171, 233,1);	
+}
+#image_1 {
+	background: url("../images/xideas3.jpg");
+	background-size: cover;
+	width: 10rem;
+	height: 10rem;
+	display: inline-block;
+}
+
+#image_2 {
+	background-image: url("../images/xtools_images.jpg");
+	background-size: cover;
+	width: 10rem;
+	height: 10rem;
+	display: inline-block;
+}
+#image_3 {
+	background-image: url("../images/ximages_plane.jpg");
+	background-size: cover;
+	width: 10rem;
+	height: 10rem;
+	display: inline-block;
+}
+#image_4 {
+	background-image: url("../images/xbuild_images.jpg");
+	background-size: cover;
+	width: 10rem;
+	height: 10rem;
+	display: inline-block;
+}
+#image_5 {
+	background-image: url("../images/xresponsive-web-design-25.jpg");
+	background-size: cover;
+	width: 10rem;
+	height: 10rem;
+	display: inline-block;
+}
+
+.section_header {
+	background: rgba(0,0,0,1);
+	color: rgba(255,255,255,1);
+	padding: .5rem;
+}
+.content {
+	margin: auto;
+	width: 75%;
+}
+.content_2 {
+	margin: auto;
+	width: 90%;	
+}
+footer {
+	color: rgba(255, 255, 255, 1.0);
+	background-color: gray;
+	text-align: center;
+}
+/***********************/
+/* Show/Hide the  menu */
+/***********************/
+.show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: rgba(33, 171, 233,1);
+	text-align: center;
+	padding: .625rem 0;
+	display: none;
+}
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+/***********************/
+/***********************/
+/***********************/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+/* ***************** */
+/* Responsive Styles */
+/* ***************** */
+@media screen and (max-width : 760px){
+	/*Make dropdown links appear inline*/
+
+	h1 {
+		font-size: 1rem;
+		text-align: center;
+	}
+	p {
+		font-size: 1.2rem;	
+	}
+	nav ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	nav li {
+		margin-bottom: 5px;
+	}
+	/*Make all menu links full width*/
+	nav ul li, nav li a {
+		width: 100%;
+	}
+
+	nav .show-menu {
+		display:block;
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	header {
+		background: rgba(0,0,0,1);
+		padding-bottom: 1rem;
+	}
+	.hero {
+		display: none;
+	}
+
+	.content_2 {
+		width: 100%;
+	}
+	section {
+		font-size: 1.4rem;		
+    	height: 85vh;
+    	overflow: visible;	
+		padding: 0;	
+	}	
+	.para_display {
+		display: block;
+	}
+
+	.hide_para {
+		display: none;
+		visibility: hidden;
+	}
+	h2 {
+		display: none;
+		visibility: hidden;
+	}
+	#experience {
+		font-size: 1.25rem;
+	}
+	#image {
+		display: none;
+		visibility: hidden;
+	}
+}
