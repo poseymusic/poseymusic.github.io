@@ -1,18 +1,4 @@
 
-/*
-#body {
-	color: white;
-	background: black;
-}
-*/
-/*
-#p {
-	color: #e95a50; /* tan */
-	/*
-	color: #19c589; /* green */
-	/*
-}
-*/
 body{
 	font-size: 16px;	
 	font-family:  Calibri, Arial, sans-serif;	
@@ -42,13 +28,10 @@ nav ul  {
 	font-variant: small-caps;
 	margin: 0;
 	padding: 0;
-
 }
 
 nav a {
-
-	color: rgba(255,255,255,1);
-	
+	color: rgba(255,255,255,1);	
 }
 nav li a {
 	background: #2f3036;
@@ -78,12 +61,14 @@ header {
 
 section {
 	clear: both;
+	width: 100%;
 }
 #home{
 		background: rgba(0, 0, 0, .75);
 		padding-top: 2rem;
 		padding-bottom: 5rem;		
 }
+
 #home p {
 	font-size: 1.25rem;
 }
@@ -95,19 +80,11 @@ section {
 		color: rgba(255,255,255,1);
 		background: rgba(33, 171, 233,1);
 }
-#about, #how{
-		background: tan;		
-}
-#services{
-		background: rgba(33, 171, 233,1);		
-}
-#slogan {
-	padding: .5rem;
-}
+
 .hero1, .hero2, .hero3 {
 	background: rgba(0,0,0,.5);
 	float: left;
-	margin: .5rem;
+	margin:  1%;
 	padding: 1.65rem;
 	width: 30%;
 }
@@ -115,12 +92,53 @@ section {
 	clear: both;
 }
 
+
 .highlight a {
 	font-variant: small-caps;
 	text-decoration: none;
-	background: rgba(0,0,0,1);
-	color: rgba(33, 171, 233,1);
-	padding-top: .5rem;
+	background: rgba(33, 171, 233,1);	
+	color: rgba(255, 255, 255,1);
+	padding: .5rem;
+	width: 100%;
+}
+
+
+.content {
+	margin: auto;
+	width: 990px;
+}
+.content_2 {
+	margin: auto;
+	width: 90%;	
+}
+
+#slogan {
+	padding: .5rem;
+}
+
+#about, #how{
+		background: tan;		
+}
+#services{
+		background: rgba(33, 171, 233,1);		
+}
+#services .content: {
+	width: 50%;		
+}
+
+
+.scrollup{
+	background: rgba(33, 171, 233,1);
+	border-radius: 20%;
+	bottom: 2rem;
+	color: rgba(255,255,255,1);
+	display: inline-block;
+	padding: 1rem 0;
+	position: fixed;
+	right: 2em;
+	text-align: center;
+	text-decoration: none;
+	width: 3.25rem;
 }
 #image {
 	line-height: 2rem;
@@ -171,15 +189,9 @@ section {
 	background: rgba(0,0,0,1);
 	color: rgba(255,255,255,1);
 	padding: .5rem;
+	width: 100%;
 }
-.content {
-	margin: auto;
-	width: 75%;
-}
-.content_2 {
-	margin: auto;
-	width: 90%;	
-}
+
 footer {
 	color: rgba(255, 255, 255, 1.0);
 	background-color: gray;
@@ -257,6 +269,8 @@ input[type=checkbox]:checked ~ #menu{
 	.hero {
 		display: none;
 	}
+
+	
 
 	.content_2 {
 		width: 100%;
