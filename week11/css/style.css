@@ -4,6 +4,17 @@ body{
 	font-family:  Calibri, Arial, sans-serif;	
 }
 
+header a {
+	color: rgba(255,255,255,1);
+	text-decoration:  none;
+}
+
+header {
+	background: rgba(0,0,0,1);
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
 h1, h2	{
 	color: rgba(0,0,0,1);
 }
@@ -43,21 +54,19 @@ nav li a {
 nav li:hover a {
 	background: #19c589;
 }
-header a {
-	color: rgba(255,255,255,1);
-	text-decoration:  none;
-}
 
-header {
-	background: rgba(0,0,0,1);
-	padding-bottom: 3rem;
-}
 
 .row_0 h1 {
-		width: 100%;
 		color: white;
-		line-height: 3rem;
+		line-height: 2rem;
+		width: 100%;		
 } 
+.row_l {
+	float: left;
+}
+.row_r {
+	float: right;
+}
 
 section {
 	clear: both;
@@ -65,13 +74,14 @@ section {
 }
 #home{
 		background: rgba(0, 0, 0, .75);
-		padding-top: 2rem;
 		padding-bottom: 5rem;		
 }
 
 #home p {
 	font-size: 1.25rem;
 }
+
+
 
 #home p, #home a, #home h2 {
 		color: rgba(255,255,255,1);	
@@ -96,10 +106,13 @@ section {
 .highlight a {
 	font-variant: small-caps;
 	text-decoration: none;
-	background: rgba(33, 171, 233,1);	
+}
+
+.highlight a:hover {
+	background: #2f3036;
 	color: rgba(255, 255, 255,1);
-	padding: .5rem;
-	width: 100%;
+	padding: .25rem 1.25rem .25rem .25rem;
+	width: 100%;	
 }
 
 
@@ -112,8 +125,12 @@ section {
 	width: 90%;	
 }
 
-#slogan {
-	padding: .5rem;
+
+#slogan {	
+	color: #19c589;	
+	font-style: italic;	
+	font-weight: 900;
+	padding: 2rem 0 0 2rem;
 }
 
 #about, #how{
@@ -133,7 +150,7 @@ section {
 	bottom: 2rem;
 	color: rgba(255,255,255,1);
 	display: inline-block;
-	padding: 1rem 0;
+	padding: .5rem 0;
 	position: fixed;
 	right: 2em;
 	text-align: center;
@@ -270,7 +287,7 @@ input[type=checkbox]:checked ~ #menu{
 		display: none;
 	}
 
-	
+
 
 	.content_2 {
 		width: 100%;
